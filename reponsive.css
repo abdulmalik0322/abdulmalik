@@ -1,0 +1,429 @@
+@media only screen and (max-width: 600px) {
+    .nevegation {
+        display: none;
+    }
+
+    .responsive-nevegation ul {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    .responsive-nevegation ul li {
+        margin: 26px 0px;
+    }
+
+    .responsive-nevegation ul li a {
+        text-decoration: none;
+        color: rgb(236, 236, 236);
+        font-weight: bold;
+        transition: all 0.2s ease;
+    }
+
+    .child-nav .logo {
+        z-index: 4;
+    }
+
+    .buttons-group {
+        z-index: 4;
+    }
+
+    .display-none-btn {
+        display: none;
+    }
+
+    .buttons-group a {
+        margin-right: 41px;
+        color: #8d8d8d;
+    }
+
+    .responsive-nevegation {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 94%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0px;
+        z-index: 0;
+        border-radius: 0px;
+        left: 0px;
+        display: flex;
+        transition: all .4s ease;
+        transform: translateX(100%);
+    }
+
+    .responsive-nevegation.transform {
+        transform: translateX(0px);
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .main-text-section h1 {
+        font-size: 2.5rem;
+        margin-top: 38px;
+    }
+
+    .text-section-btn-group {
+        margin-top: 1rem;
+    }
+
+    /* hero section  */
+    .hero-section {
+        min-height: 176vh;
+    }
+
+
+    .hero-section .child-hero {
+        flex-direction: column;
+        /* overflow: hidden; */
+        align-items: center;
+        height: 100%;
+        margin-top: 88px;
+    }
+
+    .child-hero-left {
+        width: 100%;
+        z-index: -1;
+    }
+
+    .child-hero-middle {
+        width: 100%;
+    }
+
+    .child-hero-middle img {
+        width: 100%;
+    }
+
+    .child-hero-right {
+        width: 100%;
+    }
+
+    .child-hero-right img {
+        width: 100%;
+        position: absolute;
+        top: 37px;
+        border-radius: 5px;
+    }
+
+    /* course offer section  */
+
+    .course-offer-section {
+        width: 100%;
+        min-height: 200vh;
+    }
+
+    .child-course-offer-section h1 {
+        font-size: 2rem;
+        line-height: 39px;
+        margin-bottom: 7px;
+    }
+
+    .child-course-offer-section p {
+        line-height: 26px;
+        margin-bottom: 2rem;
+    }
+
+    .child-course-offer-section .offer-cources {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .offer-cources .first-cource:last-child {
+        padding: 24px 0px;
+        background-color: #ffdf70;
+    }
+
+    /* paid course section  */
+    .paid-cources-section {
+        margin-top: 3rem;
+    }
+
+    .child-paid-cources-section .paid-cources-header {
+        flex-direction: column;
+    }
+
+    .paid-cources-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 17px;
+    }
+
+    .paid-cources-header .paid-cource-btn {
+        padding: 20px 8px;
+        color: #4a4949;
+        width: 50%;
+    }
+
+    .cards-group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .overflow-navbar {
+        overflow: hidden;
+    }
+
+    /* course hub section  */
+    .coursehub-section {
+        width: 100%;
+        min-height: 184vh;
+        background: #e3ebe8;
+        display: flex;
+    }
+
+    .coursehub-header-text {
+        flex-direction: column;
+        margin-bottom: 1.4rem;
+    }
+
+    .coursehub-header-text h1 {
+        width: 100%;
+        color: #474646;
+        font-size: 2.5rem;
+        margin-bottom: 6px;
+    }
+
+    .coursehub-header-text p {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .coursehub-main-part {
+        flex-direction: column;
+    }
+
+    .coursehub-main-part-left {
+        width: 100%;
+    }
+
+    .coursehub-main-part-left img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .father-coursehub-main-part-right {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .coursehub-main-part-right {
+        width: 100%;
+    }
+
+    .coursehub-main-part-right h2 {
+        color: #4d4b4b;
+        font-size: 2rem;
+        line-height: 32px;
+        margin-top: 12px;
+        margin-bottom: 1rem;
+    }
+
+    .coursehub-main-part-right-elements {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.3rem;
+        margin-bottom: 5px;
+
+    }
+
+    .coursehub-main-part-right .coursehub-btn {
+        color: #212020;
+        background-color: #ffde6b;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding: 12px 21px;
+    }
+
+    .coursehub-main-part-right .coursehub-demand {
+        margin-top: 27px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffdcbf;
+        height: 144px;
+        padding: 14px 26px;
+        border-radius: 8px;
+        align-items: flex-start;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    /* world of students section  */
+    .world-from-our-students {
+        width: 100%;
+        min-height: 119vh;
+        display: flex;
+    }
+
+    .child-world-from-our-students h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .main-world-from-our-students {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .main-world-from-our-students-left {
+        width: 100%;
+        position: relative;
+        margin-top: 12rem;
+    }
+
+    .main-world-from-our-students-left img {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        border-radius: 4px;
+    }
+
+    .main-world-from-our-students-middle {
+        position: relative;
+        width: 100%;
+        border: 2px solid #d3d3d3;
+        padding: 22px;
+        border-radius: 5px;
+        margin-top: 225px;
+    }
+
+    .main-world-from-our-students-middle-logo h5 {
+        margin-bottom: 10px;
+    }
+
+    .main-world-from-our-students-middle-arrows {
+        display: flex;
+        position: absolute;
+        bottom: -16px;
+    }
+
+    .main-world-from-our-students-middle-arrows .arrow-first {
+        border: 2px solid #d3d3d3;
+        display: flex;
+        background-color: #d3d3d3;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 14px;
+        border-radius: 50%;
+        padding: 1px;
+    }
+
+    .main-world-from-our-students-right {
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+        border-radius: 4px;
+        position: relative;
+        top: -563px;
+    }
+
+    .main-world-from-our-students-right img {
+        border-radius: 5px;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 30px;
+    }
+
+
+
+    .child-professors-section h1 {
+        font-size: 1.7rem;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .professors-group {
+        gap: 2rem;
+        display: grid;
+        margin-top: 20px;
+        margin-bottom: 31px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .professors-group img {
+        height: 277px;
+        width: 150px;
+        border-radius: 5px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .professors-group .image h3 {
+        margin: 4px 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 450px) {
+    .text-section {
+        width: 100%;
+        display: flex;
+        min-height: 45vh;
+    }
+
+    .main-text-section h1 {
+        font-size: 2.5rem;
+        margin-top: 6px;
+    }
+
+    .hero-section .child-hero {
+        flex-direction: column;
+        /* overflow: hidden; */
+        align-items: center;
+        height: 100%;
+        margin-top: 62px;
+    }
+
+    .hero-section {
+        min-height: 97vh;
+    }
+
+    .course-offer-section {
+        width: 100%;
+        min-height: 176vh;
+    }
+
+    .buttons-group a {
+        margin-right: 55px;
+        color: #8d8d8d;
+    }
+
+    .child-world-from-our-students h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 3.7rem;
+    }
+
+    .main-world-from-our-students-middle {
+        position: relative;
+        width: 100%;
+        border: 2px solid #d3d3d3;
+        padding: 22px;
+        border-radius: 5px;
+        margin-top: 268px;
+    }
+
+    .main-world-from-our-students-right {
+        display: block;
+        margin: 0px auto;
+        width: 100%;
+        border-radius: 4px;
+        position: relative;
+        top: -557px;
+    }
+
+    .main-world-from-our-students-right img {
+        border-radius: 5px;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 14px;
+    }
+}
