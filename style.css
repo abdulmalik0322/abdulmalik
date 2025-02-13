@@ -9,14 +9,16 @@ body {
     background-color: whitesmoke;
 }
 
-.navbar {
-    min-width: 100%;
-}
-
 :root {
     --80percent: 80vw;
     --gray-text: #777777;
 }
+
+.navbar {
+    min-width: 100%;
+}
+
+
 
 .child-nav {
     height: 12vh;
@@ -753,7 +755,7 @@ ul li {
 
 .joining-section-images .joining-section-first {
     width: 11%;
-    background-color: #03A9F4;
+    background-color: #b1dcef;
     height: 144px;
     display: flex;
     align-items: center;
